@@ -30,6 +30,6 @@ spec:
     app: students-api
   ports:
     - protocol: TCP
-      port: 8090 # The port that the service is running on in the cluster
-      targetPort: 30000 # The port exposed by the service
+      port: 30000 # The port that the service is running on in the cluster
+      targetPort: 8090 # The port exposed by the service
   type: NodePort # type of the service.
