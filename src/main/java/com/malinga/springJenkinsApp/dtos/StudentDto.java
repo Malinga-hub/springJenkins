@@ -11,4 +11,5 @@ public class StudentDto {
     private String emailAddress;
     private String phoneNumber;
     private boolean isEnrolled;
+    private boolean isBalanceCleared;
 }
