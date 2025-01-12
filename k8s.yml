@@ -2,6 +2,8 @@ apiVersion: apps/v1
 kind: Deployment # Kubernetes resource kind we are creating
 metadata:
   name: students-api
+  labels:
+    app: students-api
 spec:
   selector:
     matchLabels:
