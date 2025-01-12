@@ -19,7 +19,8 @@ public class StudentService {
                 "malinga.simuchimba@gmail.com",
                 "0975608340",
                 true,
-                true
+                true,
+                1
         );
         list.add(studentDto);
 

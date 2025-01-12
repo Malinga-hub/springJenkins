@@ -12,4 +12,5 @@ public class StudentDto {
     private String phoneNumber;
     private boolean isEnrolled;
     private boolean isBalanceCleared;
+    private int currentYear;
 }
