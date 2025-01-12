@@ -15,7 +15,7 @@ spec:
         app: students-api
     spec:
       containers:
-        - name: students-api-image
+        - name: students-api
           image: localhost:32000/students-api # Image that will be used to containers in the cluster
           imagePullPolicy: IfNotPresent
           ports:
